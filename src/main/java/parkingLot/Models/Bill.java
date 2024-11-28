@@ -5,13 +5,13 @@ import java.util.List;
 
 public class Bill extends BaseModel {
 
-    Ticket ticket;
-    Gate gate;
-    BillStatus status;
-    Integer amount;
-    List<Payment> payments;
-    Date exiTime;
-    FeesCalculationStrategyType feeCalculationStrategyType;
+    private Ticket ticket;
+    private Gate gate;
+    private BillStatus status;
+    private Integer amount;
+    private List<Payment> payments;
+    private Date exiTime;
+    private FeesCalculationStrategyType feeCalculationStrategyType;
 
     public Ticket getTicket() {
         return ticket;

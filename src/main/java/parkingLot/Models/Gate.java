@@ -1,9 +1,9 @@
 package parkingLot.Models;
 
 public class Gate extends BaseModel{
-    Operator operator;
-    GateType gateType;
-    GateStatus gateStatus;
+    private Operator operator;
+    private GateType gateType;
+    private GateStatus gateStatus;
     private  String gateNumber;
 
     public Operator getOperator() {
