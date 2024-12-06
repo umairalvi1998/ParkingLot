@@ -18,11 +18,11 @@ public class Ticket extends BaseModel {
         this.generatedAt = generatedAt;
     }
 
-    public parkingLot.Models.parkingSpot getParkingSpot() {
+    public parkingSpot getParkingSpot() {
         return parkingSpot;
     }
 
-    public void setParkingSpot(parkingLot.Models.parkingSpot parkingSpot) {
+    public void setParkingSpot(parkingSpot parkingSpot) {
         this.parkingSpot = parkingSpot;
     }
 

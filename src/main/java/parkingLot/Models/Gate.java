@@ -1,10 +1,10 @@
 package parkingLot.Models;
 
-public class Gate extends BaseModel{
+public class Gate extends BaseModel {
     private Operator operator;
     private GateType gateType;
     private GateStatus gateStatus;
-    private  String gateNumber;
+    private String gateNumber;
 
     public Operator getOperator() {
         return operator;
